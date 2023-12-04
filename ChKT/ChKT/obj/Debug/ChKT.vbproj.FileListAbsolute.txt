@@ -1,0 +1,14 @@
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.vbprojAssemblyReference.cache
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.Resources.resources
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.vbproj.GenerateResource.cache
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.vbproj.CoreCompileInputs.cache
+A:\Extra VBA\ChKT\ChKT\bin\Debug\ChKT.exe.config
+A:\Extra VBA\ChKT\ChKT\bin\Debug\ChKT.exe
+A:\Extra VBA\ChKT\ChKT\bin\Debug\ChKT.pdb
+A:\Extra VBA\ChKT\ChKT\bin\Debug\ChKT.xml
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.exe
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.xml
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.pdb
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.Login.resources
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.Administrador.resources
+A:\Extra VBA\ChKT\ChKT\obj\Debug\ChKT.Registro.resources
