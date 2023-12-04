@@ -18,7 +18,7 @@ Public Class Reportes
     End Sub
 
     Private Sub CargarEstudioMenosSolicitado()
-        Dim query As String = "SELECT TOP 1 e.Nombre AS [Nombre Estudio], COUNT(*) AS [Numero De Veces Solicitado] " &
+        Dim query As String = "SELECT TOP 1 e.Nombre AS NombreEstudio, COUNT(*) AS NumeroDeVecesSolicitado " &
                           "FROM Estudio AS e " &
                           "INNER JOIN ClienteRealizaEstudio AS cre ON e.IdEstudio = cre.IdEstudio " &
                           "GROUP BY e.Nombre " &
