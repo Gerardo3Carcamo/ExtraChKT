@@ -24,10 +24,13 @@ Partial Class Administrador
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Administrador))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.NuevoEstudioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ActualizarEstudioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AltaDeClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BajaDeClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CambiosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConsultasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AltasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BajasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ActualizacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -39,40 +42,58 @@ Partial Class Administrador
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltaDeClientesToolStripMenuItem, Me.BajaDeClientesToolStripMenuItem, Me.CambiosToolStripMenuItem, Me.ConsultasToolStripMenuItem, Me.ConsultasToolStripMenuItem1, Me.ReportesToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoEstudioToolStripMenuItem, Me.AltaDeClientesToolStripMenuItem, Me.ConsultasToolStripMenuItem1, Me.ReportesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1421, 40)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
+        'NuevoEstudioToolStripMenuItem
+        '
+        Me.NuevoEstudioToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem, Me.ActualizarEstudioToolStripMenuItem})
+        Me.NuevoEstudioToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NuevoEstudioToolStripMenuItem.Name = "NuevoEstudioToolStripMenuItem"
+        Me.NuevoEstudioToolStripMenuItem.Size = New System.Drawing.Size(115, 36)
+        Me.NuevoEstudioToolStripMenuItem.Text = "Estudios"
+        '
+        'NuevoToolStripMenuItem
+        '
+        Me.NuevoToolStripMenuItem.Name = "NuevoToolStripMenuItem"
+        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(285, 36)
+        Me.NuevoToolStripMenuItem.Text = "Nuevo"
+        '
+        'ActualizarEstudioToolStripMenuItem
+        '
+        Me.ActualizarEstudioToolStripMenuItem.Name = "ActualizarEstudioToolStripMenuItem"
+        Me.ActualizarEstudioToolStripMenuItem.Size = New System.Drawing.Size(285, 36)
+        Me.ActualizarEstudioToolStripMenuItem.Text = "Actualizar estudio"
+        '
         'AltaDeClientesToolStripMenuItem
         '
+        Me.AltaDeClientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AltasToolStripMenuItem, Me.BajasToolStripMenuItem, Me.ActualizacionesToolStripMenuItem})
         Me.AltaDeClientesToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AltaDeClientesToolStripMenuItem.Name = "AltaDeClientesToolStripMenuItem"
-        Me.AltaDeClientesToolStripMenuItem.Size = New System.Drawing.Size(190, 36)
-        Me.AltaDeClientesToolStripMenuItem.Text = "Alta de clientes"
+        Me.AltaDeClientesToolStripMenuItem.Size = New System.Drawing.Size(112, 36)
+        Me.AltaDeClientesToolStripMenuItem.Text = "Clientes"
         '
-        'BajaDeClientesToolStripMenuItem
+        'AltasToolStripMenuItem
         '
-        Me.BajaDeClientesToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BajaDeClientesToolStripMenuItem.Name = "BajaDeClientesToolStripMenuItem"
-        Me.BajaDeClientesToolStripMenuItem.Size = New System.Drawing.Size(193, 36)
-        Me.BajaDeClientesToolStripMenuItem.Text = "Baja de clientes"
+        Me.AltasToolStripMenuItem.Name = "AltasToolStripMenuItem"
+        Me.AltasToolStripMenuItem.Size = New System.Drawing.Size(259, 36)
+        Me.AltasToolStripMenuItem.Text = "Altas"
         '
-        'CambiosToolStripMenuItem
+        'BajasToolStripMenuItem
         '
-        Me.CambiosToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CambiosToolStripMenuItem.Name = "CambiosToolStripMenuItem"
-        Me.CambiosToolStripMenuItem.Size = New System.Drawing.Size(119, 36)
-        Me.CambiosToolStripMenuItem.Text = "Cambios"
+        Me.BajasToolStripMenuItem.Name = "BajasToolStripMenuItem"
+        Me.BajasToolStripMenuItem.Size = New System.Drawing.Size(259, 36)
+        Me.BajasToolStripMenuItem.Text = "Bajas"
         '
-        'ConsultasToolStripMenuItem
+        'ActualizacionesToolStripMenuItem
         '
-        Me.ConsultasToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ConsultasToolStripMenuItem.Name = "ConsultasToolStripMenuItem"
-        Me.ConsultasToolStripMenuItem.Size = New System.Drawing.Size(130, 36)
-        Me.ConsultasToolStripMenuItem.Text = "Consultas"
+        Me.ActualizacionesToolStripMenuItem.Name = "ActualizacionesToolStripMenuItem"
+        Me.ActualizacionesToolStripMenuItem.Size = New System.Drawing.Size(259, 36)
+        Me.ActualizacionesToolStripMenuItem.Text = "Actualizaciones"
         '
         'ConsultasToolStripMenuItem1
         '
@@ -129,11 +150,14 @@ Partial Class Administrador
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents AltaDeClientesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents BajaDeClientesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CambiosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ConsultasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConsultasToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ReportesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents AltasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BajasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ActualizacionesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NuevoEstudioToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NuevoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ActualizarEstudioToolStripMenuItem As ToolStripMenuItem
 End Class
