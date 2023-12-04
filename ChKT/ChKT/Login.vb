@@ -15,6 +15,7 @@ Public Class Login
             Dim rol As Integer = lector.GetInt32(3)
             Dim usuarioID As Integer = lector.GetInt32(0)
             If rol = 1 Then 'Usuario administrador
+                Administrador.flag = True
                 Administrador.Show()
             ElseIf rol <> 1 Then 'Usuario empleado
                 Administrador.Show()

@@ -1,4 +1,7 @@
 ﻿Public Class Administrador
+
+    Public flag As Boolean = False
+
     Private Sub AltasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AltasToolStripMenuItem.Click
         Altas.Show()
     End Sub
@@ -21,5 +24,10 @@
 
     Private Sub ReportesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReportesToolStripMenuItem.Click
         Reportes.Show()
+    End Sub
+
+    Private Sub Administrador_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        AltaDeClientesToolStripMenuItem.Visible = flag
+        ReportesToolStripMenuItem.Visible = flag
     End Sub
 End Class
