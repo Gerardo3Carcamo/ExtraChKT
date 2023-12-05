@@ -78,6 +78,12 @@
     <Compile Include="Actualizaciones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ActualizarEstudio.Designer.vb">
+      <DependentUpon>ActualizarEstudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizarEstudio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Altas.Designer.vb">
       <DependentUpon>Altas.vb</DependentUpon>
     </Compile>
@@ -157,6 +163,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Actualizaciones.resx">
       <DependentUpon>Actualizaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarEstudio.resx">
+      <DependentUpon>ActualizarEstudio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Altas.resx">
       <DependentUpon>Altas.vb</DependentUpon>

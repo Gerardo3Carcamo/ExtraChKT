@@ -30,4 +30,8 @@
         AltaDeClientesToolStripMenuItem.Visible = flag
         ReportesToolStripMenuItem.Visible = flag
     End Sub
+
+    Private Sub ActualizarEstudioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ActualizarEstudioToolStripMenuItem.Click
+        ActualizarEstudio.Show()
+    End Sub
 End Class

@@ -32,3 +32,4 @@ C:\UADEC\Visual Basic\ExtraChKT\ChKT\ChKT\obj\Debug\ChKT.Bajas.resources
 C:\UADEC\Visual Basic\ExtraChKT\ChKT\ChKT\obj\Debug\ChKT.EstudioNuevo.resources
 C:\UADEC\Visual Basic\ExtraChKT\ChKT\ChKT\obj\Debug\ChKT.Consultas.resources
 C:\UADEC\Visual Basic\ExtraChKT\ChKT\ChKT\obj\Debug\ChKT.Reportes.resources
+C:\UADEC\Visual Basic\ExtraChKT\ChKT\ChKT\obj\Debug\ChKT.ActualizarEstudio.resources
